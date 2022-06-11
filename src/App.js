@@ -8,15 +8,17 @@ import About from './compenents/About';
 import Portfolio from './compenents/Portfolio';
 import Expirence from './compenents/Expirence';
 import Contact from './compenents/Contact';
+import ProfessionalExpirence from './compenents/ProfessionalExpirence';
 function App() {
   return (
     <div   >
       <Nav />
       <Home />
       <About />
-      <Portfolio />
+      <ProfessionalExpirence />
+      {/* <Portfolio />
       <Expirence />
-      <Contact />
+      <Contact /> */}
       
 
       <Sociallinks />

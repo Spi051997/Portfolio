@@ -1,6 +1,7 @@
 import React from "react";
 import heroImage from "../assets/heroImage.png";
 import { BiDownArrowAlt, BiRightArrowAlt } from "react-icons/bi";
+import {Link} from 'react-scroll'
 
 function Home() {
   return (
@@ -20,7 +21,7 @@ function Home() {
           </p>
 
           <div>
-            <button
+            <Link
               to="portfolio"
               smooth
               duration={500}
@@ -30,7 +31,7 @@ function Home() {
               <span className="group-hover:rotate-90 duration-300">
                 <BiRightArrowAlt size={25} className="ml-1" />
               </span>
-            </button>
+            </Link>
           </div>
         </div>
 
