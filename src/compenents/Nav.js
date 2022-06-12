@@ -12,9 +12,11 @@ function Nav() {
       id: 2,
       link: "about",
     },
+    
     {
       id: 3,
-      link: "expirence", 
+      link: "skills",
+    
     },
     {
       id: 4,
@@ -22,10 +24,6 @@ function Nav() {
     },
     {
       id: 5,
-      link: "skills",
-    },
-    {
-      id: 6,
       link: "contact",
     },
   ];
