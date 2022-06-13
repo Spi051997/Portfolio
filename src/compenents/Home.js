@@ -2,6 +2,7 @@ import React from "react";
 import heroImage from "../assets/heroImage.png";
 import { BiDownArrowAlt, BiRightArrowAlt } from "react-icons/bi";
 import {Link} from 'react-scroll'
+import Newparticletest from "./Newparticletest";
 
 function Home() {
   return (
@@ -43,7 +44,10 @@ function Home() {
           />
         </div>
       </div>
+      <Newparticletest />
     </div>
+   
+    
   );
 }
 

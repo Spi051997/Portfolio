@@ -8,21 +8,25 @@ import About from './compenents/About';
 import Portfolio from './compenents/Portfolio';
 import Expirence from './compenents/Expirence';
 import Contact from './compenents/Contact';
+import Newparticletest from './compenents/Newparticletest';
 // import ProfessionalExpirence from './compenents/ProfessionalExpirence';
 function App() {
   return (
     <div   >
+      
       <Nav />
       <Home />
-      <About />
-      <Expirence />
+      {/* <Newparticletest />
+      */}
+      {/* <About /> */}
+      {/* <Expirence /> */}
       {/* <ProfessionalExpirence /> */}
-      <Portfolio />
+      {/* <Portfolio /> */}
       
-      <Contact />
+      {/* <Contact /> */}
       
 
-      <Sociallinks />
+      {/* <Sociallinks /> */}
    
     </div>
   );
