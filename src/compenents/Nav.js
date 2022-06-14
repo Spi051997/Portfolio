@@ -28,7 +28,7 @@ function Nav() {
     },
   ];
   return (
-    <div className="flex justify-between items-center w-full h-20 text-white bg-black fixed text-3xl  px-4">
+    <div className="flex justify-between items-center w-full h-20 text-white bg-black fixed text-3xl  px-4 hover:scale-60 duration-600">
       {/* <FaBars /> */}
       <h1 className="text-5xl font-signature ml-2 ">Shubham</h1>
       <ul className="hidden md:flex">
@@ -36,8 +36,8 @@ function Nav() {
         {link.map(({ id, link }) => (
           <div>
             <li
-              className=" text-xl px-4 cursor-pointer capitalize font-medium  text-gray-400 hover:scale-105 duration-300"
-              key={id}
+              className=" text-xl px-4 cursor-pointer capitalize font-medium  text-gray-400 hover:scale-105 duration-500"
+              key={id}  
             >
                <Link to={link} smooth duration={500}>{link}</Link>
             </li>
@@ -60,7 +60,7 @@ function Nav() {
     {link.map(({ id, link }) => (
         <div>
           <li
-            className="px-4 cursor-pointer capitalize py-6 text-4xl hover:scale-105 duration-200"
+            className="px-4 cursor-pointer capitalize py-6 text-4xl hover:scale-60 duration-600"
             key={id}
           >
            <Link onClick={() => setNav(!Nav)} to={link} smooth duration={500}>{link}</Link>

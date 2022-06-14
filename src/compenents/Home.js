@@ -1,9 +1,9 @@
 import React from "react";
 import heroImage from "../assets/heroImage.png";
-import { BiDownArrowAlt, BiRightArrowAlt } from "react-icons/bi";
+import {BiRightArrowAlt } from "react-icons/bi";
 import {Link} from 'react-scroll'
-import Particles from 'react-tsparticles'
-import Particlconfig from './config/Particleconfig'
+// import Particles from 'react-tsparticles'
+// import Particlconfig from './config/Particleconfig'
 
 function Home() {
   return (
@@ -15,13 +15,14 @@ function Home() {
       
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full ">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white  ">
-            I'm a Full Stack Developer
+          <h2 className="text-4xl sm:text-7xl font-bold text-white cursor-pointer">
+            I'm  a Software Engineer
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
-            I have 8 years of experience building and desgining software.
+          <p className="text-gray-400 py-4 max-w-md">
+            {/* I have 2 years of experience building and desgining software.
             Currently, I love to work on web application using technologies like
-            React, Tailwind, Next JS and GraphQL.
+            React, Tailwind, Next JS and GraphQL.With Excelent pro */}
+             who loves building beautiful interfaces, Web apps, and everything in between.
           </p>
 
           <div>
