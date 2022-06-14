@@ -5,6 +5,7 @@ import {Link} from 'react-scroll'
 // import Particles from 'react-tsparticles'
 // import Particlconfig from './config/Particleconfig'
 
+
 function Home() {
   return (
    
@@ -49,6 +50,7 @@ function Home() {
         </div>
       </div>
     
+  
     </div>
    
     
